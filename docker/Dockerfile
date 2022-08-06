@@ -9,3 +9,5 @@ RUN chmod 777 /var/www/html/messages/env.txt
 # docker build -t my-php-app .
 # docker run -dit --rm --name my-running-app  -p 8081:80 my-php-app
 # docker stop $(docker ps -a -q --filter="name=my-running-app") && docker build -t my-php-app .docker/Dockerfile  && docker run -dit --rm --name my-running-app  -p 8081:80 my-php-app
+
+# helm chart link: https://www.globaldots.com/resources/how-to/how-to-deploy-an-application-in-kubernetes-using-helm/
